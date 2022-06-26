@@ -3,7 +3,6 @@ variable "aws_region" {
   type    = string
 }
 
-
 variable "aws_secret_access_key" {
 
 }
@@ -16,7 +15,6 @@ variable "ak-dado-til-mudu-ose" {
   default =  "ak-dado-til-mudu-ose-bucket"
   
 }
-
 
 
 variable "subnet_ids" {
