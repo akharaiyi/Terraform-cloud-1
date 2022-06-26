@@ -17,6 +17,11 @@ resource "aws_ebs_volume" "ctg_eb_volume" {
 }
 
 
+resource "aws_ecr_repository" "test_ecr" {
+  name = "development/webapp"
+  
+}
+
 
 resource "aws_s3_bucket" "new_bucket_creation_for_dev" {
   bucket = var.ak-dado-til-mudu-ose
